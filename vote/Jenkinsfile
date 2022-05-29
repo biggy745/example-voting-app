@@ -40,13 +40,6 @@ pipeline {
       always{
           echo 'Pipeline for vote is completed!'
       }
-      failure{
-          echo 'failure'
-        
-      success{
-            echo 'success'
-            }
-          
-      }
-  } 
+               
+  }
 }
